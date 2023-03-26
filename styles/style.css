@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header,
+.gameboard {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.column {
+}
+
+.row {
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+}
